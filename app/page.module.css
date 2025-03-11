@@ -16,6 +16,7 @@
 .logo {
   font-weight: bold;
   font-size: 1.2rem;
+  margin-right: 2rem;
 }
 
 .navbar ul {
@@ -30,7 +31,7 @@
 }
 
 .navbar ul li:hover {
-  color: #0070f3;
+  color: #1f72d8;
 }
 
 /* MAIN WRAPPER */
@@ -44,7 +45,7 @@
 .heroSection {
   width: 100%;
   padding: 3rem 2rem;
-  background: linear-gradient(135deg, #b3a0ff 0%, #ffacd2 100%);
+  background: linear-gradient(135deg, #1eec078f 0%, #1bf0089d 100%);
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -129,14 +130,15 @@
 
 /* SHOWCASE SECTION */
 .showcase {
-  width: 100%;
+  width: 80%; /* Adjust this value as needed */
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 2rem;
   background-color: #f8f8f8;
+  margin-left: auto; /* This pushes the container to the right */
 }
 
 .textBlock {

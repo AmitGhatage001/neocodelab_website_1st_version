@@ -21,15 +21,15 @@ export default function HomePage() {
       {/* HERO SECTION */}
       <section className={styles.heroSection}>
         <div className={styles.heroContent}>
-          <h1>Creating Impact,<br />One line of code at a time!</h1>
+          <h1>NeoCodeLab,<br/>Building internet Businesses<br/>One line of code at a time!</h1>
           <div className={styles.codeBlock}>
-            <p>// run NeoCodeLab.</p>
-            <p>{`echo "NeoCodeLab - 'Building the future, one solution at a time'"`}</p>
-            <p>{`echo "NeoCodeLab - 'Creating change with code.'"`}</p>
+            {/* <p>Solo internet businesses.</p> */}
+            <p>{`Crafting SAAS, one hustle at a time.`}</p>
+            <p>{`Code. Build. Ship. Alone.`}</p>
           </div>
         </div>
         <div className={styles.solutionsBox}>
-          <h2>Seamless Solutions,<br />Concept to Code & Deployment</h2>
+          <h2>Solving Real World Problems,<br />Concept to Code & Deployment</h2>
           <div className={styles.pills}>
             <span>Frontend Layer</span>
             <span>Backend Layer</span>
@@ -77,43 +77,13 @@ export default function HomePage() {
           <h2>Code the impossible!</h2>
           <p>Breaking Boundaries and Building the Future, One Line at a Time!</p>
         </div>
-        <div className={styles.imageBlock}>
-          <img
-            src="/images/showcase-image.jpg"
-            alt="Showcase"
-            className={styles.roundedImage}
-          />
-        </div>
       </section>
 
       {/* TECHNOLOGIES SECTION */}
       <section className={styles.technologiesSection}>
         <h2>Harnessing Cutting-Edge Technologies to Solve Tomorrow's Global Challenges Today!</h2>
         <div className={styles.logoGrid}>
-          <div>
-            <img src="/images/react-logo.png" alt="React" />
-          </div>
-          <div>
-            <img src="/images/angular-logo.png" alt="Angular" />
-          </div>
-          <div>
-            <img src="/images/js-logo.png" alt="JavaScript" />
-          </div>
-          <div>
-            <img src="/images/vue-logo.png" alt="Vue" />
-          </div>
-          <div>
-            <img src="/images/docker-logo.png" alt="Docker" />
-          </div>
-          <div>
-            <img src="/images/redis-logo.png" alt="Redis" />
-          </div>
-          <div>
-            <img src="/images/nx-logo.png" alt="Nx" />
-          </div>
-          <div>
-            <img src="/images/typescript-logo.png" alt="TypeScript" />
-          </div>
+          
         </div>
       </section>
 
